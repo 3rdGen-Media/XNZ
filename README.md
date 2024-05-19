@@ -21,7 +21,7 @@ an analogous implementation using ```compression_stream_process``` with the ```C
 --------------------- | -------- | -------------------------------- | --- 
 **[xnz.h](xnz/xnz.h)** | decoder | bitstream loading/decoding from memory | RFC 1951
 **[xnz_icc_profile.h](xnz/xnz_icc_profile.h)** | colorspace | color profile loading/decoding from file/memory | ICC
-**[xnz_bmp_image.h](xnz/xnz_bmp_image.h)** | image | image loading/decoding from file/memory | BMP
+**[xnz_bmp_image.h](xnz/xnz_bmp_image.h)** | image | image encoding/export  to file/memory | BMP
 **[xnz_dds_image.h](xnz/xnz_dds_image.h)** | image | image loading/decoding from file/memory | DDS
 **[xnz_png_image.h](xnz/xnz_png_image.h)** | image | image loading/decoding from file/memory | PNG
 **[xnz_sgi_image.h](xnz/xnz_sgi_image.h)** | image | image loading/decoding from file/memory | SGI
