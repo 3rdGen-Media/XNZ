@@ -12,7 +12,7 @@ parity with Apple's [compression_stream](https://developer.apple.com/documentati
 an analogous implementation using ```compression_stream_process``` with the ```COMPRESSION_ZLIB``` algorithm for comparison.
 </p>
 
-<p>BC[#] and GDeflate support to come.  No roadmap for LZ4 as Apple's compression_stream and Pixar's USD implementations are satisfactory.</p>
+<p>BC[#], GDeflate and KTX container support to come.  No roadmap for LZ4 as Apple's compression_stream and Pixar's USD implementations are satisfactory.</p>
 
 <br/>
 <div><a name="xnz_apis"></a></div>
