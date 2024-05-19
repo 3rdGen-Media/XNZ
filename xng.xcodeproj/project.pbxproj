@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7938ACF2BF97C8C00BD5649 /* xng_font.c in Sources */ = {isa = PBXBuildFile; fileRef = C7938ABA2BF97C8C00BD5649 /* xng_font.c */; };
+		C7938AD02BF97C8C00BD5649 /* xng_font.c in Sources */ = {isa = PBXBuildFile; fileRef = C7938ABA2BF97C8C00BD5649 /* xng_font.c */; };
+		C7938AD52BF97C8C00BD5649 /* xng_image.c in Sources */ = {isa = PBXBuildFile; fileRef = C7938ABF2BF97C8C00BD5649 /* xng_image.c */; };
+		C7938AD62BF97C8C00BD5649 /* xng_image.c in Sources */ = {isa = PBXBuildFile; fileRef = C7938ABF2BF97C8C00BD5649 /* xng_image.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7938AAA2BF97C1400BD5649 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7938AA12BF97B6800BD5649 /* libxng-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libxng-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7938AAC2BF97C1400BD5649 /* libxng-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libxng-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7938AB52BF97C8C00BD5649 /* xng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng.h; sourceTree = "<group>"; };
+		C7938AB62BF97C8C00BD5649 /* stb_image_resize2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_resize2.h; sourceTree = "<group>"; };
+		C7938AB72BF97C8C00BD5649 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		C7938AB82BF97C8C00BD5649 /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug_c.h; sourceTree = "<group>"; };
+		C7938AB92BF97C8C00BD5649 /* stbi_DDS_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug.h; sourceTree = "<group>"; };
+		C7938ABA2BF97C8C00BD5649 /* xng_font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xng_font.c; sourceTree = "<group>"; };
+		C7938ABB2BF97C8C00BD5649 /* xng_font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_font.h; sourceTree = "<group>"; };
+		C7938ABC2BF97C8C00BD5649 /* xng_fpf_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_fpf_image.h; sourceTree = "<group>"; };
+		C7938ABD2BF97C8C00BD5649 /* xng_image_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_image_buffer.h; sourceTree = "<group>"; };
+		C7938ABE2BF97C8C00BD5649 /* xng_image_formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_image_formats.h; sourceTree = "<group>"; };
+		C7938ABF2BF97C8C00BD5649 /* xng_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xng_image.c; sourceTree = "<group>"; };
+		C7938AC02BF97C8C00BD5649 /* xng_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_image.h; sourceTree = "<group>"; };
+		C7938AC12BF97C8C00BD5649 /* xng_raw_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_raw_image.h; sourceTree = "<group>"; };
+		C7938AC22BF97C8C00BD5649 /* xng_ttf_font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xng_ttf_font.h; sourceTree = "<group>"; };
+		C7938AC32BF97C8C00BD5649 /* xnz_bmp_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnz_bmp_image.h; sourceTree = "<group>"; };
+		C7938AC42BF97C8C00BD5649 /* xnz_dds_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnz_dds_image.h; sourceTree = "<group>"; };
+		C7938AC52BF97C8C00BD5649 /* xnz_icc_profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnz_icc_profile.h; sourceTree = "<group>"; };
+		C7938AC62BF97C8C00BD5649 /* xnz_png_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnz_png_image.h; sourceTree = "<group>"; };
+		C7938AC72BF97C8C00BD5649 /* xnz_sgi_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnz_sgi_image.h; sourceTree = "<group>"; };
+		C7938AC82BF97C8C00BD5649 /* xnz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xnz.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7938A9F2BF97B6800BD5649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7938AA92BF97C1400BD5649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7938A982BF97B6800BD5649 = {
+			isa = PBXGroup;
+			children = (
+				C7938AB52BF97C8C00BD5649 /* xng.h */,
+				C7938AC92BF97C8C00BD5649 /* xnz */,
+				C7938AA22BF97B6800BD5649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7938AA22BF97B6800BD5649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7938AA12BF97B6800BD5649 /* libxng-OSX.a */,
+				C7938AAC2BF97C1400BD5649 /* libxng-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7938AC92BF97C8C00BD5649 /* xnz */ = {
+			isa = PBXGroup;
+			children = (
+				C7938AF42BF98F4100BD5649 /* stb */,
+				C7938AF52BF98FE100BD5649 /* xnz */,
+				C7938AC02BF97C8C00BD5649 /* xng_image.h */,
+				C7938ABF2BF97C8C00BD5649 /* xng_image.c */,
+				C7938ABB2BF97C8C00BD5649 /* xng_font.h */,
+				C7938ABA2BF97C8C00BD5649 /* xng_font.c */,
+			);
+			path = xnz;
+			sourceTree = "<group>";
+		};
+		C7938AF42BF98F4100BD5649 /* stb */ = {
+			isa = PBXGroup;
+			children = (
+				C7938AB62BF97C8C00BD5649 /* stb_image_resize2.h */,
+				C7938AB72BF97C8C00BD5649 /* stb_image.h */,
+				C7938AB82BF97C8C00BD5649 /* stbi_DDS_aug_c.h */,
+				C7938AB92BF97C8C00BD5649 /* stbi_DDS_aug.h */,
+			);
+			name = stb;
+			sourceTree = "<group>";
+		};
+		C7938AF52BF98FE100BD5649 /* xnz */ = {
+			isa = PBXGroup;
+			children = (
+				C7938AC22BF97C8C00BD5649 /* xng_ttf_font.h */,
+				C7938ABE2BF97C8C00BD5649 /* xng_image_formats.h */,
+				C7938ABD2BF97C8C00BD5649 /* xng_image_buffer.h */,
+				C7938ABC2BF97C8C00BD5649 /* xng_fpf_image.h */,
+				C7938AC12BF97C8C00BD5649 /* xng_raw_image.h */,
+				C7938AC52BF97C8C00BD5649 /* xnz_icc_profile.h */,
+				C7938AC32BF97C8C00BD5649 /* xnz_bmp_image.h */,
+				C7938AC42BF97C8C00BD5649 /* xnz_dds_image.h */,
+				C7938AC62BF97C8C00BD5649 /* xnz_png_image.h */,
+				C7938AC72BF97C8C00BD5649 /* xnz_sgi_image.h */,
+				C7938AC82BF97C8C00BD5649 /* xnz.h */,
+			);
+			name = xnz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7938AA02BF97B6800BD5649 /* xng-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7938AA52BF97B6800BD5649 /* Build configuration list for PBXNativeTarget "xng-OSX" */;
+			buildPhases = (
+				C7938A9E2BF97B6800BD5649 /* Sources */,
+				C7938A9F2BF97B6800BD5649 /* Frameworks */,
+				C7938AE02BF97D0200BD5649 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xng-OSX";
+			productName = xng;
+			productReference = C7938AA12BF97B6800BD5649 /* libxng-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7938AAB2BF97C1400BD5649 /* xng-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7938AB22BF97C1400BD5649 /* Build configuration list for PBXNativeTarget "xng-iOS" */;
+			buildPhases = (
+				C7938AA82BF97C1400BD5649 /* Sources */,
+				C7938AA92BF97C1400BD5649 /* Frameworks */,
+				C7938AAA2BF97C1400BD5649 /* CopyFiles */,
+				C7938AE12BF97D3F00BD5649 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xng-iOS";
+			productName = xng;
+			productReference = C7938AAC2BF97C1400BD5649 /* libxng-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7938A992BF97B6800BD5649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C7938AA02BF97B6800BD5649 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C7938AAB2BF97C1400BD5649 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C7938A9C2BF97B6800BD5649 /* Build configuration list for PBXProject "xng" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7938A982BF97B6800BD5649;
+			productRefGroup = C7938AA22BF97B6800BD5649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7938AAB2BF97C1400BD5649 /* xng-iOS */,
+				C7938AA02BF97B6800BD5649 /* xng-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7938AE02BF97D0200BD5649 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#create include dir for crUtils if it doesn't exist before the copy phase\n#if [!-d ../include/CoreRender/crUtils ]; then\n#mkdir ../include/CoreRender/crUtils\n#fi\n#just use mkdir -p option\nmkdir -p ../include/CoreRender/xnz;\n\ncp -rvf ./xnz/\\xng_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_image_formats.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_image_buffer.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\xng_ttf_font.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_font.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\xng_fpf_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_raw_image.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\xnz.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_icc_profile.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_bmp_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_dds_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_png_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_sgi_image.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\stb_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\stbi_DDS_aug.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\stbi_DDS_aug_c.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\stb_image_resize2.h ../include/CoreRender/xnz/\n\ncp -rvf xng.h ../include/CoreRender/\n";
+		};
+		C7938AE12BF97D3F00BD5649 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#create include dir for crUtils if it doesn't exist before the copy phase\n#if [!-d ../include/CoreRender/crUtils ]; then\n#mkdir ../include/CoreRender/crUtils\n#fi\n#just use mkdir -p option\nmkdir -p ../include/CoreRender/xnz;\n\ncp -rvf ./xnz/\\xng_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_image_formats.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_image_buffer.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\xng_ttf_font.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_font.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\xng_fpf_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xng_raw_image.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\xnz.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_icc_profile.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_bmp_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_dds_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_png_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\xnz_sgi_image.h ../include/CoreRender/xnz/\n\ncp -rvf ./xnz/\\stb_image.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\stbi_DDS_aug.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\stbi_DDS_aug_c.h ../include/CoreRender/xnz/\ncp -rvf ./xnz/\\stb_image_resize2.h ../include/CoreRender/xnz/\n\ncp -rvf xng.h ../include/CoreRender/\n\n#copy output lib to bin\nmkdir -p ../bin/iOS;\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\nmkdir -p ../bin/iOS/release;\n#cp -rvf ../Darwin/crImage/Build/Products/Release-iphoneos/libcrImage-iOS.a ../bin/iOS/release\nelse\nmkdir -p ../bin/iOS/debug\n#cp -rvf ../Darwin/crImage/Build/Products/Debug-iphoneos/libcrImage-iOS.a ../bin/iOS/debug\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7938A9E2BF97B6800BD5649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7938ACF2BF97C8C00BD5649 /* xng_font.c in Sources */,
+				C7938AD52BF97C8C00BD5649 /* xng_image.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7938AA82BF97C1400BD5649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7938AD02BF97C8C00BD5649 /* xng_font.c in Sources */,
+				C7938AD62BF97C8C00BD5649 /* xng_image.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7938AA32BF97B6800BD5649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7938AA42BF97B6800BD5649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7938AA62BF97B6800BD5649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECP6D49SS3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../include/CoreRender,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7938AA72BF97B6800BD5649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECP6D49SS3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../include/CoreRender,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7938AB32BF97C1400BD5649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECP6D49SS3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../include/CoreRender,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7938AB42BF97C1400BD5649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECP6D49SS3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../include/CoreRender,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7938A9C2BF97B6800BD5649 /* Build configuration list for PBXProject "xng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7938AA32BF97B6800BD5649 /* Debug */,
+				C7938AA42BF97B6800BD5649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7938AA52BF97B6800BD5649 /* Build configuration list for PBXNativeTarget "xng-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7938AA62BF97B6800BD5649 /* Debug */,
+				C7938AA72BF97B6800BD5649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7938AB22BF97C1400BD5649 /* Build configuration list for PBXNativeTarget "xng-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7938AB32BF97C1400BD5649 /* Debug */,
+				C7938AB42BF97C1400BD5649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7938A992BF97B6800BD5649 /* Project object */;
+}
