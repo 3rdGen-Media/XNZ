@@ -53,4 +53,3 @@ XNG is a sister layer that extends XNZ with other image formats that aren't base
 *CoreRender's C libraries embody the foundational layer of 3rdGen's proprietary simulation engine and cross-platform application framework.*
 
 <br/>
-
