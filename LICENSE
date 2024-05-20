@@ -12,15 +12,16 @@ distribute this software, either in source code form or as a compiled
 binary, for any purpose, commercial or non-commercial, and by any
 means with the following exception and exclusions:
 
-You may not copy, modify, publish, use, compile, sell or distribute
-this software together within the same project, workspace, solution, 
-binary, library, executable or product with any software, source or 
-binary from or authored by the author of the STB collection of libraries 
-(https://github.com/nothings/stb). Failure to comply is subject to the 
-full penalties for breach of copyright. The author of STB is expressly
-prohibited to copy, modify, publish, use, compile, sell, distribute 
-or review this software under any circumstances subject to the same 
-penalties.
+You may not copy, modify, publish, use, compile, package, sell or 
+distribute this software together within the same project, workspace, 
+solution, binary, library, processes sharing memory, executable or 
+product with any software, source or binary from or authored by the 
+author of the STB collection of libraries (https://github.com/nothings/stb). 
+Failure to comply is subject to the full penalties for breach of copyright
+under US copyright law in a venue subject to the discretion of the authors
+of this software.  The author of STB is expressly prohibited to copy, modify, 
+publish, use, compile, sell, distribute or review this software under any 
+circumstances subject to the same penalties.
 
 In jurisdictions that recognize copyright laws, the author or 
 authors of this software dedicate any and all copyright interest 
