@@ -49,7 +49,7 @@ XNG is a sister layer that extends XNZ with other image formats that aren't base
 **[xng_image.c](xnz/xng_image.c)** | virtual | base "class" to expose all component image apis | STRUCT
 **[xng.h](xng.h)** | header | global library header to expose all xnz + xng apis | HEADER
 
-*XNG is the modular Image Resource Layer that choreographs with 3rdGen's Accelerated Graphics Layer, Core Render.*
+*XNG is the modular Image Resource Component Layer responsible for loading and queuing transfer of texture data to 3rdGen's Accelerated Graphics Layer, Core Render.*
 *CoreRender's C libraries embody the foundational layer of 3rdGen's proprietary simulation engine and cross-platform application framework.*
 
 <br/>
